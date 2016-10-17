@@ -13,7 +13,7 @@ var ListManager=React.createClass({
     
     handleSubmit:function(e){
         e.preventDefault();
-        
+         
         var currentItems=this.state.items;
         
         currentItems.push(this.state.newItemText);
